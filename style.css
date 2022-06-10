@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 77%;
+    margin: 0 auto;
+}
+.header img {
+    max-width: 100%;
+    height: 100%;
+}
+.button {
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding-left: 12px;
+    padding-top: 4px;
+    background: rgba(255,255,255,0.4);
+    font-weight: 700;
+}
+.button-1 {
+    position: absolute;
+    top: 6em;
+    left: 41em;
+}
+.button-2 {
+    position: absolute;
+    left: 30em;
+    top: 16em;
+}
+.button-3 {
+    position: absolute;
+    left: 55em;
+    top: 15em;
+}
+.button-4 {
+    position: absolute;
+    left: 41em;
+    top: 17em;
+}
+#cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    width: 81%;
+    margin: 0 auto;
+}
+.card {
+    border: 1px solid white;
+    margin: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    padding-top: 0;
+    background-color: #121212;
+    top: 0em;
+    transition: top .3s;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    font-weight: 500;
+}
+.number {
+    font-weight: 900;
+    font-size: 5em;
+}
+.product-link {
+    border-bottom: 2px solid white;
+    margin-right: 2em;
+    margin-top: 0.3em;
+    display: flex;
+    justify-content: space-between;
+}
+.test {
+    position: relative;
+    top: -2rem;
+}
